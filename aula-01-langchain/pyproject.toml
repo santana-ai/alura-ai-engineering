@@ -1,0 +1,12 @@
+[project]
+name = "alura"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=1.0",
+    "langchain-openai>=1.0",
+    "python-dotenv>=1.0",
+    "ipykernel>=6.29",
+    "langchain-classic>=1.0.8",
+    "grandalf>=0.8",
+]

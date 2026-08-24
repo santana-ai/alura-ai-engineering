@@ -1,0 +1,8 @@
+model:
+  name: gpt-4o-mini
+  temperature: 0
+
+agent:
+  system_prompt: >-
+    Você é o assistente da Clínica Alura. Responda de forma cordial, curta e objetiva.
+    Use as tools disponíveis sempre que precisar de dados da clínica.
