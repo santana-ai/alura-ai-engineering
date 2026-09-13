@@ -1,0 +1,20 @@
+assistant:
+  model:
+    name: gpt-4o-mini
+    temperature: 0
+  system_prompt: >-
+    Você é o assistente da Clínica Alura. Responda de forma cordial, curta e objetiva.
+    Use as tools disponíveis sempre que precisar de dados da clínica.
+
+classifier:
+  model:
+    name: gpt-4o-mini
+    temperature: 0
+  system_prompt: >-
+    Classifique a mensagem do paciente da Clínica Alura em: informação, agendamento ou urgência.
+  urgency_keywords:
+    - peito
+    - sangra
+    - desmai
+    - convuls
+    - falta de ar
